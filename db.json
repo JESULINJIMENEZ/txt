@@ -1,0 +1,482 @@
+[
+  {
+    "origen": 1003431,
+    "codigo1": "CSV010408ZNOBQR01-01",
+    "codigo2": "CSV010408ZNOBQR01",
+    "fecha": "2025-06-30",
+    "descripcion": "Bocagrande+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Bocagrande"
+  },
+  {
+    "origen": 1003431,
+    "codigo1": "CSV010408ZNOBQR01-02",
+    "codigo2": "CSV010408ZNOBQR01",
+    "fecha": "2025-06-30",
+    "descripcion": "Bocagrande+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Bocagrande"
+  },
+  {
+    "origen": 1000542,
+    "codigo1": "CSV010408ZNOBQR02-01",
+    "codigo2": "CSV010408ZNOBQR02",
+    "fecha": "2025-06-30",
+    "descripcion": "Castellana+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Castellana"
+  },
+  {
+    "origen": 1000542,
+    "codigo1": "CSV010408ZNOBQR02-02",
+    "codigo2": "CSV010408ZNOBQR02",
+    "fecha": "2025-06-30",
+    "descripcion": "Castellana+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Castellana"
+  },
+  {
+    "origen": 1000529,
+    "codigo1": "CSV010408ZNOBQR03-01",
+    "codigo2": "CSV010408ZNOBQR03",
+    "fecha": "2025-06-30",
+    "descripcion": "Alameda+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Alameda"
+  },
+  {
+    "origen": 1000529,
+    "codigo1": "CSV010408ZNOBQR03-02",
+    "codigo2": "CSV010408ZNOBQR03",
+    "fecha": "2025-06-30",
+    "descripcion": "Alameda+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Alameda"
+  },
+  {
+    "origen": 1000528,
+    "codigo1": "CSV010408ZNOBQR04-01",
+    "codigo2": "CSV010408ZNOBQR04",
+    "fecha": "2025-06-30",
+    "descripcion": "Bv Monteria+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Bv Monteria"
+  },
+  {
+    "origen": 1000528,
+    "codigo1": "CSV010408ZNOBQR04-02",
+    "codigo2": "CSV010408ZNOBQR04",
+    "fecha": "2025-06-30",
+    "descripcion": "Bv Monteria+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Bv Monteria"
+  },
+  {
+    "origen": 1000534,
+    "codigo1": "CSV010408ZNOBQR05-01",
+    "codigo2": "CSV010408ZNOBQR05",
+    "fecha": "2025-06-30",
+    "descripcion": "Caribe Plaza+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Caribe Plaza"
+  },
+  {
+    "origen": 1000534,
+    "codigo1": "CSV010408ZNOBQR05-02",
+    "codigo2": "CSV010408ZNOBQR05",
+    "fecha": "2025-06-30",
+    "descripcion": "Caribe Plaza+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Caribe Plaza"
+  },
+  {
+    "origen": 1001189,
+    "codigo1": "CSV010408ZNOBQR06-01",
+    "codigo2": "CSV010408ZNOBQR06",
+    "fecha": "2025-06-30",
+    "descripcion": "Chapinero+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Chapinero"
+  },
+  {
+    "origen": 1001189,
+    "codigo1": "CSV010408ZNOBQR06-02",
+    "codigo2": "CSV010408ZNOBQR06",
+    "fecha": "2025-06-30",
+    "descripcion": "Chapinero+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Chapinero"
+  },
+  {
+    "origen": 1000541,
+    "codigo1": "CSV010408ZNOBQR07-01",
+    "codigo2": "CSV010408ZNOBQR07",
+    "fecha": "2025-06-30",
+    "descripcion": "Gran Plaza Del Sol+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Gran Plaza Del Sol"
+  },
+  {
+    "origen": 1000541,
+    "codigo1": "CSV010408ZNOBQR07-02",
+    "codigo2": "CSV010408ZNOBQR07",
+    "fecha": "2025-06-30",
+    "descripcion": "Gran Plaza Del Sol+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Gran Plaza Del Sol"
+  },
+  {
+    "origen": 1000530,
+    "codigo1": "CSV010408ZNOBQR08-01",
+    "codigo2": "CSV010408ZNOBQR08",
+    "fecha": "2025-06-30",
+    "descripcion": "Guacari+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Guacari"
+  },
+  {
+    "origen": 1000530,
+    "codigo1": "CSV010408ZNOBQR08-02",
+    "codigo2": "CSV010408ZNOBQR08",
+    "fecha": "2025-06-30",
+    "descripcion": "Guacari+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Guacari"
+  },
+  {
+    "origen": 1000527,
+    "codigo1": "CSV010408ZNOBQR09-01",
+    "codigo2": "CSV010408ZNOBQR09",
+    "fecha": "2025-06-30",
+    "descripcion": "Guatapuri+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Guatapuri"
+  },
+  {
+    "origen": 1000527,
+    "codigo1": "CSV010408ZNOBQR09-02",
+    "codigo2": "CSV010408ZNOBQR09",
+    "fecha": "2025-06-30",
+    "descripcion": "Guatapuri+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Guatapuri"
+  },
+  {
+    "origen": 1000540,
+    "codigo1": "CSV010408ZNOBQR10-01",
+    "codigo2": "CSV010408ZNOBQR10",
+    "fecha": "2025-06-30",
+    "descripcion": "Portal Del Prado+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Portal Del Prado"
+  },
+  {
+    "origen": 1000540,
+    "codigo1": "CSV010408ZNOBQR10-02",
+    "codigo2": "CSV010408ZNOBQR10",
+    "fecha": "2025-06-30",
+    "descripcion": "Portal Del Prado+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Portal Del Prado"
+  },
+  {
+    "origen": 1000539,
+    "codigo1": "CSV010408ZNOBQR11-01",
+    "codigo2": "CSV010408ZNOBQR11",
+    "fecha": "2025-06-30",
+    "descripcion": "Viva+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Viva"
+  },
+  {
+    "origen": 1000539,
+    "codigo1": "CSV010408ZNOBQR11-02",
+    "codigo2": "CSV010408ZNOBQR11",
+    "fecha": "2025-06-30",
+    "descripcion": "Viva+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Viva"
+  },
+  {
+    "origen": 1003619,
+    "codigo1": "CSV010408ZNOBQR12-01",
+    "codigo2": "CSV010408ZNOBQR12",
+    "fecha": "2025-06-30",
+    "descripcion": "Delivery K21+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Delivery K21"
+  },
+  {
+    "origen": 1003619,
+    "codigo1": "CSV010408ZNOBQR12-02",
+    "codigo2": "CSV010408ZNOBQR12",
+    "fecha": "2025-06-30",
+    "descripcion": "Delivery K21+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Delivery K21"
+  },
+  {
+    "origen": 1000537,
+    "codigo1": "CSV010408ZNOBQR13-01",
+    "codigo2": "CSV010408ZNOBQR13",
+    "fecha": "2025-06-30",
+    "descripcion": "Delivery 38+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Delivery 38"
+  },
+  {
+    "origen": 1000537,
+    "codigo1": "CSV010408ZNOBQR13-02",
+    "codigo2": "CSV010408ZNOBQR13",
+    "fecha": "2025-06-30",
+    "descripcion": "Delivery 38+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Delivery 38"
+  },
+  {
+    "origen": 1000536,
+    "codigo1": "CSV010408ZNOBQR14-01",
+    "codigo2": "CSV010408ZNOBQR14",
+    "fecha": "2025-06-30",
+    "descripcion": "Delivery 84+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Delivery 84"
+  },
+  {
+    "origen": 1000536,
+    "codigo1": "CSV010408ZNOBQR14-02",
+    "codigo2": "CSV010408ZNOBQR14",
+    "fecha": "2025-06-30",
+    "descripcion": "Delivery 84+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Delivery 84"
+  },
+  {
+    "origen": 1000533,
+    "codigo1": "CSV010408ZNOBQR15-01",
+    "codigo2": "CSV010408ZNOBQR15",
+    "fecha": "2025-06-30",
+    "descripcion": "Delivery 92+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Delivery 92"
+  },
+  {
+    "origen": 1000533,
+    "codigo1": "CSV010408ZNOBQR15-02",
+    "codigo2": "CSV010408ZNOBQR15",
+    "fecha": "2025-06-30",
+    "descripcion": "Delivery 92+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Delivery 92"
+  },
+  {
+    "origen": 1000535,
+    "codigo1": "CSV010408ZNOBQR16-01",
+    "codigo2": "CSV010408ZNOBQR16",
+    "fecha": "2025-06-30",
+    "descripcion": "Paraiso+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Paraiso"
+  },
+  {
+    "origen": 1000535,
+    "codigo1": "CSV010408ZNOBQR16-02",
+    "codigo2": "CSV010408ZNOBQR16",
+    "fecha": "2025-06-30",
+    "descripcion": "Paraiso+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Paraiso"
+  },
+  {
+    "origen": 1000545,
+    "codigo1": "CSV010408ZNOBQR17-01",
+    "codigo2": "CSV010408ZNOBQR17",
+    "fecha": "2025-06-30",
+    "descripcion": "Pepe Sierra+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Pepe Sierra"
+  },
+  {
+    "origen": 1000545,
+    "codigo1": "CSV010408ZNOBQR17-02",
+    "codigo2": "CSV010408ZNOBQR17",
+    "fecha": "2025-06-30",
+    "descripcion": "Pepe Sierra+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Pepe Sierra"
+  },
+  {
+    "origen": 1003872,
+    "codigo1": "CSV010408ZNOBQR18-01",
+    "codigo2": "CSV010408ZNOBQR18",
+    "fecha": "2025-06-30",
+    "descripcion": "Alegra+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Alegra"
+  },
+  {
+    "origen": 1003872,
+    "codigo1": "CSV010408ZNOBQR18-02",
+    "codigo2": "CSV010408ZNOBQR18",
+    "fecha": "2025-06-30",
+    "descripcion": "Alegra+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Alegra"
+  },
+  {
+    "origen": 1000543,
+    "codigo1": "CSV010408ZNOBQR19-01",
+    "codigo2": "CSV010408ZNOBQR19",
+    "fecha": "2025-06-30",
+    "descripcion": "Principal+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Principal"
+  },
+  {
+    "origen": 1000543,
+    "codigo1": "CSV010408ZNOBQR19-02",
+    "codigo2": "CSV010408ZNOBQR19",
+    "fecha": "2025-06-30",
+    "descripcion": "Principal+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Principal"
+  },
+  {
+    "origen": 1000532,
+    "codigo1": "CSV010408ZNOBQR20-01",
+    "codigo2": "CSV010408ZNOBQR20",
+    "fecha": "2025-06-30",
+    "descripcion": "Rodadero+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Rodadero"
+  },
+  {
+    "origen": 1000532,
+    "codigo1": "CSV010408ZNOBQR20-02",
+    "codigo2": "CSV010408ZNOBQR20",
+    "fecha": "2025-06-30",
+    "descripcion": "Rodadero+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Rodadero"
+  },
+  {
+    "origen": 1000544,
+    "codigo1": "CSV010408ZNOBQR21-01",
+    "codigo2": "CSV010408ZNOBQR21",
+    "fecha": "2025-06-30",
+    "descripcion": "Villa Campestre+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Villa Campestre"
+  },
+  {
+    "origen": 1000544,
+    "codigo1": "CSV010408ZNOBQR21-02",
+    "codigo2": "CSV010408ZNOBQR21",
+    "fecha": "2025-06-30",
+    "descripcion": "Villa Campestre+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Villa Campestre"
+  },
+  {
+    "origen": 1000531,
+    "codigo1": "CSV010408ZNOBQR22-01",
+    "codigo2": "CSV010408ZNOBQR22",
+    "fecha": "2025-06-30",
+    "descripcion": "Bv Santa Marta+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Bv Santa Marta"
+  },
+  {
+    "origen": 1000531,
+    "codigo1": "CSV010408ZNOBQR22-02",
+    "codigo2": "CSV010408ZNOBQR22",
+    "fecha": "2025-06-30",
+    "descripcion": "Bv Santa Marta+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Bv Santa Marta"
+  },
+  {
+    "origen": 1000538,
+    "codigo1": "CSV010408ZNOBQR23-01",
+    "codigo2": "CSV010408ZNOBQR23",
+    "fecha": "2025-06-30",
+    "descripcion": "Unico+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Unico"
+  },
+  {
+    "origen": 1000538,
+    "codigo1": "CSV010408ZNOBQR23-02",
+    "codigo2": "CSV010408ZNOBQR23",
+    "fecha": "2025-06-30",
+    "descripcion": "Unico+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Unico"
+  },
+  {
+    "origen": 1002247,
+    "codigo1": "CSV010408ZNOBQR24-01",
+    "codigo2": "CSV010408ZNOBQR24",
+    "fecha": "2025-06-30",
+    "descripcion": "Alegra+MasterCredit",
+    "pago": "Pago externo",
+    "campo2": "TC 006",
+    "pdv": "Alegra"
+  },
+  {
+    "origen": 1002247,
+    "codigo1": "CSV010408ZNOBQR24-02",
+    "codigo2": "CSV010408ZNOBQR24",
+    "fecha": "2025-06-30",
+    "descripcion": "Alegra+CxCRappi",
+    "pago": "Credito",
+    "campo2": "",
+    "pdv": "Alegra"
+  }
+]

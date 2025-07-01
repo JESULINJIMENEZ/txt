@@ -1,0 +1,2 @@
+CAB|NOING-ALAMEDA-JUNIO1|origen|codigo1|codigo2|2025-06-30||(descripcion)|Pago externo||TC 006||0|
+POS|(sap_code)|(quantity)|EA|0|Z04|100||000000|||

@@ -7,11 +7,11 @@ const dbData = require('../../db.json');
 
 router.post('/generarTxt', async (req, res) => {
     try {
-        const { facturas, pdv, origen, productos } = req.body;
+        const { pdv, origen, productos } = req.body;
         console.log('POST /generarTxt body:', req.body);
 
-        if (!facturas || !pdv || !origen || !Array.isArray(productos) || productos.length === 0) {
-            console.log('Datos inválidos:', { facturas, pdv, origen, productos });
+        if (!pdv || !origen || !Array.isArray(productos) || productos.length === 0) {
+            console.log('Datos inválidos:', { pdv, origen, productos });
             return res.status(400).json({ message: 'Datos inválidos' });
         }
 
@@ -21,27 +21,24 @@ router.post('/generarTxt', async (req, res) => {
             return res.status(404).json({ message: `No se encontró información para el pdv: ${pdv} y origen: ${origen}` });
         }
 
-
-
         let lines = [];
-        for (let i = 0; i < facturas; i++) {
-            const prod = productos[i] || productos[0];
+        // Por cada producto, genera un bloque CAB + POS
+        for (const prod of productos) {
+            // CABECERA
+            lines.push(
+                `CAB|NOING-${pdv}-JUNIO1|${pdvData.origen}|${pdvData.codigo1}|${pdvData.codigo2}|${pdvData.fecha}||${pdvData.descripcion}|${pdvData.pago}||${pdvData.campo2 || ''}||0|`
+            );
+            // Línea POS extra si aplica
+            if (pdvData.origen != 1000288) {
+                lines.push('POS|18|1|EA|0|0|311||000000|||');
+            }
+            // Línea POS del producto
             const item = await Homologation.findOne({
                 where: { hom_id: prod.item_id }
             });
             if (!item) {
                 console.log('Item no encontrado:', prod.item_id);
                 return res.status(404).json({ message: `Item no encontrado: ${prod.item_id}` });
-            }
-            console.log(`Generando factura #${i + 1}:`, item.dataValues);
-
-            lines.push(
-                `CAB|NOING-${pdv}-JUNIO${i + 1}|${pdvData.origen}|${pdvData.codigo1}|${pdvData.codigo2}|${pdvData.fecha}||${pdvData.descripcion}|${pdvData.pago}||${pdvData.campo2 || ''}||0|`
-            );
-            if (pdvData.origen != 1000288) {
-                lines.push(
-                    'POS|18|1|EA|0|0|311||000000|||'
-                );
             }
             lines.push(
                 `POS|${item.sap_code}|${prod.cantidad}|EA|0|Z04|100||000000|||`

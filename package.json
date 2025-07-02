@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@sequelize/sqlite3": "^7.0.0-alpha.46",
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "morgan": "^1.10.0",
     "sequelize": "^6.37.7",

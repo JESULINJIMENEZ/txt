@@ -30,7 +30,7 @@ router.post('/generarTxt', async (req, res) => {
             );
             // Línea POS extra si aplica
             if (pdvData.origen != 1000288) {
-                lines.push('POS|18|1|EA|0|0|311||000000|||');
+                lines.push('POS|18|1|EA|0|311|100||000000|||');
             }
             // Línea POS del producto
             const item = await Homologation.findOne({

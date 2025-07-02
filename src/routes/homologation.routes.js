@@ -21,9 +21,10 @@ router.get('/bowl-homologations', async (req, res) => {
     try {
         const homologations = await Homologation.findAll({
             where: {
-                descripion: {
-                    [Op.like]: '%Bowl%'
-                }
+                [Op.or]: [
+                    { descripion: { [Op.like]: '%Bowl%' } },
+                    { descripion: { [Op.like]: '%(2x1 RAPPI)%' } }
+                ]
             },
             attributes: ["hom_id", "sap_code", "descripion", "micros_code"]
         });
